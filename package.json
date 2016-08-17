@@ -2,7 +2,7 @@
   "name": "device-api",
   "version": "1.0.0",
   "description": "Simple Mobile Device database",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.14.0",
     "stf-device-db": "^1.2.0"
