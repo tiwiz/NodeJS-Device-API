@@ -14,7 +14,7 @@ app.get('/device/:model', function (req, res) {
   if (data != null) {
     res.json({imageUrl : data.image})
   } else {
-    res.json({imageUrl : "default.jpg"})
+    res.json({imageUrl : "_default.jpg"})
   }
 
 });
